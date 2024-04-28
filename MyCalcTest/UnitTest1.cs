@@ -12,7 +12,7 @@ namespace MyCalculatorTests
             int y;
 
             x = int.Parse(TestContext?.Properties?["ValueX"]?.ToString());
-            x = int.Parse(TestContext?.Properties?["ValueY"]?.ToString());
+            y = int.Parse(TestContext?.Properties?["ValueY"]?.ToString());
 
             Calculator c = new Calculator();
             int result = c.Add(
